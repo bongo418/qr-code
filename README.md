@@ -6,6 +6,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -18,8 +19,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot.jpeg)
+![](screenshot.jpeg)
 ![](screenshotM.jpeg)
+
+### Links
+
+- Live Site URL: [Github.io page](https://bongo418.github.io/qr-code/)
 
 ## My process
 
@@ -32,26 +37,28 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I learned about position: absolute; and bottom: 0; It made my footer change from being stuck to the right of my content, to being at the bottom like I intended.
+Don't try and rush it. Experiment and use the MDN docs.
+If I'm trying to center elements as a whole with Flexbox, I need to add a parent and use justify-content/align-items with that, otherwise I'm centering the elements inside the container and not the container itself.
 
 ```css
-footer {
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 90vh;
 }
 ```
 
 ### Continued development
 
-CSS is still a pain. The main and section was probably not needed and made things a lot more difficult for this. I like them, though; I just need to improve my CSS a lot more.
+CSS is still not my favourite.
 
 ### Useful resources
 
-- [Quillbot Grammar Check](https://quillbot.com/grammar-check) - Helped with some grammar in the README.
-- [Microsoft CoPilot](https://copilot.microsoft.com/) - Helped me with some of my footer code when it was stuck to the side of my QR code and not the bottom.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) - I can't explain how useful this has been for CSS
+- [Microsoft Copilot](https://copilot.microsoft.com/) - Helped me with some of my footer code when it was stuck to the side of my QR code and not the bottom.
 
 ## Author
 
