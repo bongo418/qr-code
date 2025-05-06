@@ -60,7 +60,7 @@ CSS is still not my favourite.
 
 ### Useful resources
 
-- [MDN Web Docs](https://developer.mozilla.org/en-US/) - I can't explain how useful this has been for CSS
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) - I can't explain how useful this has been for CSS.
 - [Microsoft Copilot](https://copilot.microsoft.com/) - Helped me with some of my footer code when it was stuck to the side of my QR code and not the bottom.
 
 ## Author

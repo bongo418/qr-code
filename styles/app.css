@@ -1,7 +1,6 @@
 body {
   background-color: #d6e2f0;
   font-family: "Outfit";
-  overflow: hidden;
 }
 
 main {
@@ -10,7 +9,7 @@ main {
   align-items: center;
   justify-content: center;
   margin: 0;
-  min-height: 100vh;
+  min-height: 95vh;
 }
 
 .mainContent {
