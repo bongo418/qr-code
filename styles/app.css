@@ -1,6 +1,7 @@
 body {
   background-color: #d6e2f0;
   font-family: "Outfit";
+  overflow: hidden;
 }
 
 main {
@@ -9,7 +10,7 @@ main {
   align-items: center;
   justify-content: center;
   margin: 0;
-  min-height: 90vh;
+  min-height: 100vh;
 }
 
 .mainContent {
@@ -52,4 +53,18 @@ p.mainText {
   font-size: 15px;
   font-weight: 400;
   color: #68778d;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #1f3251;
 }

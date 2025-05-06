@@ -41,13 +41,16 @@ Don't try and rush it. Experiment and use the MDN docs.
 If I'm trying to center elements as a whole with Flexbox, I need to add a parent and use justify-content/align-items with that, otherwise I'm centering the elements inside the container and not the container itself.
 
 ```css
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  min-height: 90vh;
+.attribution {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: #68778d;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
 }
 ```
 
