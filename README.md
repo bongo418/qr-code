@@ -19,13 +19,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Screenshot
 
 ![](./screenshot.jpeg)
+![](screenshotM.jpeg)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5
+- CSS
 - Flexbox
 - CSS Grid (Not 100% sure about this one. I just used Flexbox properties)
 
@@ -45,7 +46,7 @@ footer {
 
 ### Continued development
 
-CSS is still a pain. The <main> and <section> was probably not needed and made things a lot more difficult for this. I like them, though; I just need to improve my CSS a lot more.
+CSS is still a pain. The main and section was probably not needed and made things a lot more difficult for this. I like them, though; I just need to improve my CSS a lot more.
 
 ### Useful resources
 
