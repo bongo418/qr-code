@@ -57,16 +57,6 @@ p.mainText {
   text-align: center;
   font-size: 15px;
   font-weight: 400;
-  color: #68778d;
   margin-top: auto;
   width: 100%;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-  color: #1f3251;
 }
