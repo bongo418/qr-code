@@ -1,6 +1,12 @@
 body {
   background-color: #d6e2f0;
   font-family: "Outfit";
+  margin: 0;
+  height: 100vh; /* Ensures body takes full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
@@ -8,8 +14,8 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0;
-  min-height: 95vh;
+  margin: auto;
+  flex-grow: 1;
 }
 
 .mainContent {
@@ -52,10 +58,7 @@ p.mainText {
   font-size: 15px;
   font-weight: 400;
   color: #68778d;
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: auto;
   width: 100%;
 }
 
